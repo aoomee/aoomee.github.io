@@ -3,40 +3,67 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Diamond Grinding Disc</title>
+<title>Diamond Electroplated Grinding Disc</title>
 <style>
 body {
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   background: #ffffff;
   color: #111;
-  text-align: center;
 }
 .container {
-  max-width: 700px;
-  margin: 80px auto;
-  padding: 20px;
+  max-width: 900px;
+  margin: 120px auto;
+  padding: 0 20px;
 }
 h1 {
-  font-size: 28px;
+  font-size: 42px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 100px;
 }
 .section {
-  margin-top: 60px;
+  margin-bottom: 100px;
 }
-.spec-box {
-  display: inline-block;
+.specs {
+  display: flex;
+  justify-content: space-between;
+}
+.spec {
   width: 45%;
-  vertical-align: top;
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+.spec h3 {
+  font-size: 20px;
+}
+.process {
+  max-width: 600px;
+  line-height: 1.8;
+  color: #444;
+}
+.contact {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+  font-size: 15px;
+  color: #444;
 }
 .footer {
-  margin-top: 80px;
-  font-size: 14px;
-  color: #666;
+  margin-top: 120px;
+  font-size: 13px;
+  color: #aaa;
 }
-@media (max-width: 600px) {
-  .spec-box {
+@media (max-width: 768px) {
+  .specs {
+    flex-direction: column;
+  }
+  .spec {
     width: 100%;
-    margin-top: 20px;
+    margin-bottom: 40px;
   }
 }
 </style>
@@ -46,41 +73,37 @@ h1 {
 <div class="container">
 
 <h1>Diamond Electroplated Grinding Disc</h1>
-<p>Precision thin grinding and polishing solution.</p>
-
-<div class="section">
-<h2>Specifications</h2>
-
-<div class="spec-box">
-<strong>1.5 Inch</strong>
-<p>Ultra thin<br>
-High diamond concentration<br>
-Fine polishing</p>
+<div class="subtitle">
+Precision thin grinding solution for industrial applications.
 </div>
 
-<div class="spec-box">
-<strong>2.0 Inch</strong>
-<p>Larger surface area<br>
-Higher efficiency<br>
-Stable and durable</p>
+<div class="section specs">
+  <div class="spec">
+    <h3>1.5 Inch</h3>
+    Ultra thin structure<br>
+    High diamond concentration<br>
+    Fine polishing performance
+  </div>
+
+  <div class="spec">
+    <h3>2.0 Inch</h3>
+    Larger working surface<br>
+    Higher efficiency<br>
+    Stable and durable design
+  </div>
 </div>
 
+<div class="section process">
+  <h2>Process</h2>
+  Electroplated diamond coating ensures strong adhesion,
+  uniform particle distribution and long service life.
 </div>
 
-<div class="section">
-<h2>Process</h2>
-<p>
-Electroplated diamond coating with strong adhesion and uniform particle distribution.
-</p>
-</div>
-
-<div class="section">
-<h2>Contact</h2>
-<p>
-Qingdao Drew Industrial Technology Co., Ltd.<br>
-Email: your@email.com<br>
-Phone: +86-xxxx-xxxx
-</p>
+<div class="section contact">
+  <h2>Contact</h2>
+  Qingdao Drew Industrial Technology Co., Ltd.<br>
+  Email: your@email.com<br>
+  Phone: +86-xxxx-xxxx
 </div>
 
 <div class="footer">
